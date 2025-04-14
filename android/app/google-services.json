@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "289296400251",
+    "project_id": "blokade-87f3d",
+    "storage_bucket": "blokade-87f3d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:289296400251:android:25904c94e36fba9fccc7de",
+        "android_client_info": {
+          "package_name": "com.example.blokade2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOSGnQPSKo0SdooDjCZ1RUstZA9D7tOek"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:289296400251:android:611abce2a98705c9ccc7de",
+        "android_client_info": {
+          "package_name": "com.example.blokadefinal221"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOSGnQPSKo0SdooDjCZ1RUstZA9D7tOek"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
