@@ -281,7 +281,7 @@ class _HomeScreenState extends State<HomeScreen>
           ],
         ),
         bottom: PreferredSize(
-          preferredSize: Size.fromHeight(_isBannerReady ? 40.0 : 0),
+          preferredSize: Size.fromHeight(_isBannerReady ? 42.0 : 0),
           child: _isBannerReady
               ? Align(
             alignment: Alignment.center,
