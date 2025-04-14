@@ -1,0 +1,13 @@
+   platform :ios, '13.0'
+
+   # CocoaPods master repo
+   source 'https://github.com/CocoaPods/Specs.git'
+
+   # Pods for your app
+   target 'Runner' do
+     # Pod for Firebase and other dependencies
+     pod 'Firebase/Core'
+     pod 'cloud_firestore'
+     pod 'firebase_auth'
+     pod 'firebase_storage'
+   end
