@@ -11,5 +11,6 @@
      pod 'Firebase/Firestore','~> 5.6.6'
      pod 'Firebase/Storage','~> 12.4.5'
 
-      flutter_install_all_ios_pods(File.dirname(File.realpath(__FILE__)))
+
    end
+
