@@ -5,8 +5,11 @@ workflows:
       flutter: stable
       xcode: latest
     scripts:
-      - name: Update CocoaPods repo
-        script: pod repo update
+      - name: Clean Flutter project
+        script: flutter clean
+      - name: Update CocoaPods repo and install dependencies
+        script: |
+          pod install --repo-update
       - name: Set minimum iOS version to 13.0
         script: |
           sed -i '' 's/PLATFORM_VERSION = .*/PLATFORM_VERSION = 13.0;/' ios/Flutter/Generated.xcconfig || true
