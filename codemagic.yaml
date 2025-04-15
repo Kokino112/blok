@@ -5,6 +5,8 @@ workflows:
       flutter: stable
       xcode: latest
     scripts:
+      - name: Update CocoaPods repo
+        script: pod repo update
       - name: Set minimum iOS version to 13.0
         script: |
           sed -i '' 's/PLATFORM_VERSION = .*/PLATFORM_VERSION = 13.0;/' ios/Flutter/Generated.xcconfig || true
@@ -15,15 +17,3 @@ workflows:
         script: flutter build ios --simulator
     artifacts:
       - build/ios/iphonesimulator/Runner.app
-
-  android-release-build:
-    name: Android Release Build
-    environment:
-      flutter: stable
-    scripts:
-      - name: Get Flutter packages
-        script: flutter pub get
-      - name: Build APK
-        script: flutter build apk --release
-    artifacts:
-      - build/app/outputs/flutter-apk/app-release.apk
