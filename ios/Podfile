@@ -7,7 +7,6 @@
    target 'Runner' do
      # Pod for Firebase and other dependencies
      pod 'Firebase/Core'
-     pod 'cloud_firestore'
-     pod 'firebase_auth'
-     pod 'firebase_storage'
+     pod 'cloud_firestore','~> 5.6.6'
+     pod 'firebase_storage','~> 12.4.5'
    end
