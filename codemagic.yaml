@@ -4,6 +4,7 @@ workflows:
     environment:
       flutter: stable
       xcode: latest
+      platform: macos
     scripts:
       - name: Clean Flutter project
         script: flutter clean
